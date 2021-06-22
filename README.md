@@ -1,2 +1,2 @@
 # SoFresh
- A CSS styling web page for campus project.
+ An HTML and CSS styling web page for campus project.
