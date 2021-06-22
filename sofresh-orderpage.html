@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="stylesheet.CSS">
+    <title>Order Form</title>
+    
+</head>
+<body>
+    <div class="logo">
+        <a href="sofresh-homepage.html"><img src="images/sf-logo.png" alt="Logo"></a>
+    </div>
+
+    <nav>
+        <ul>
+            
+            <li><a href="sofresh-homepage.html">Home</a></li>
+            <li><a class="active" href="sofresh-orderpage.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <img class="head-wallpaper" src="images/juice-wallpaper.jpg" alt="Wallpaper">
+
+
+    <h1 class="description-title">ORDER FORM</h1>
+    <br>
+
+    <div class="container">
+    <form action="/action_page.php">
+
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="fullname" placeholder="Enter Full Name">
+      <br>
+
+      <label for="products">Products</label>
+      <br><br>
+
+      <label class="cb-container">
+          <input type="checkbox" checked="checked" id="fruit" name="fruit">
+          <span class="cb-checkmark"></span>
+          <label for="fruit">Fruit</label>
+      </label>
+      
+
+      <label class="cb-container">
+        <input type="checkbox" id="salad" name="salad">
+        <span class="cb-checkmark"></span>
+        <label for="salad">Salad</label>
+    </label>
+
+      
+
+
+      <label class="cb-container">
+        <input type="checkbox" id="cocktail" name="cocktail">
+        <span class="cb-checkmark"></span>
+        <label for="cocktail">Cocktail</label>
+    </label>
+
+      
+
+
+      <label class="cb-container">
+        <input type="checkbox" id="juice" name="juice">
+        <span class="cb-checkmark"></span>
+        <label for="juice">Juice</label>
+    </label>
+
+
+
+      <br>
+      <label for="address">Address</label>
+      <br>
+      <input type="text" id="address" name="address" placeholder="Enter Address">
+      <br>
+      
+      <label for="gender">Gender</label>
+      <br><br>
+      <label class="crb-container">
+        <input type="radio" checked="checked" name="gender" value="male">
+        <span class="crb-checkmark"></span>
+        <label for="male">Male</label>
+      </label>
+      
+      <label class="crb-container">
+        <input type="radio" name="gender" value="female">
+        <span class="crb-checkmark"></span>
+        <label for="female">Female</label>
+      </label>
+      
+      <br>
+      <br>
+      <label for="phoneno">Phone Number</label>
+      <input type="tel" id="phoneno" name="phoneno" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter Phone Number">
+      <br>
+      
+      <label class="cb-container">
+        <input type="checkbox" id="tsa" name="tsa">
+        <span class="cb-checkmark"></span>
+        <label for="tsa">I agree to SoFresh <a href="https://sofreshng.com/privacy-policy" target="_blank">terms and services agreement.</a></label>
+    </label>
+        <br>
+      <input type="submit" value="Order">
+      
+    </form>
+  </div>
+
+  <br><br><br>
+  <footer>
+        
+    <b class="copyright">&copy;Software Laboratory Center 2019/2020</b>
+    <a href="https://www.instagram.com/sofreshng/" target="_blank"><img class="social-media" src="images/ig-logo.png" alt="IG"></a>
+    <a href="https://youtube.com/user/sofresh" target="_blank"><img class="social-media" src="images/yt-logo.png" alt="YT"></a>
+    
+
+</footer>
+</body>
+</html>
